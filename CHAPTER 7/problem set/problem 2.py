@@ -5,4 +5,5 @@
 l = ["Harry", "Soham", "Sachin", "Rahul"] 
 
 for name in l :
-    print
+    if name.startswith("S"):
+        print("Hello " + name)
